@@ -133,13 +133,13 @@ Mohon konfirmasi ketersediaan dan total harga. Terima kasih!`;
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden bg-black/90 backdrop-blur-md">
-            <div className="px-2 pt-2 pb-3 space-y-1">
-              <a href="#home" className="block px-3 py-2 text-white hover:bg-white/10 rounded font-medium">Beranda</a>
-              <a href="#about" className="block px-3 py-2 text-white hover:bg-white/10 rounded font-medium">Tentang</a>
-              <a href="#products" className="block px-3 py-2 text-white hover:bg-white/10 rounded font-medium">Produk</a>
-              <a href="#order" className="block px-3 py-2 text-white hover:bg-white/10 rounded font-medium">Pesan</a>
-              <a href="#contact" className="block px-3 py-2 text-white hover:bg-white/10 rounded font-medium">Kontak</a>
+          <div className="md:hidden absolute top-16 right-4 z-50 w-48">
+            <div className="bg-black/40 backdrop-blur-md rounded-xl border border-white/20 shadow-2xl py-2">
+              <a href="#home" onClick={() => setIsMenuOpen(false)} className="block px-4 py-2.5 text-white hover:bg-white/10 font-medium text-sm drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)] transition-all">Beranda</a>
+              <a href="#about" onClick={() => setIsMenuOpen(false)} className="block px-4 py-2.5 text-white hover:bg-white/10 font-medium text-sm drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)] transition-all">Tentang</a>
+              <a href="#products" onClick={() => setIsMenuOpen(false)} className="block px-4 py-2.5 text-white hover:bg-white/10 font-medium text-sm drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)] transition-all">Produk</a>
+              <a href="#order" onClick={() => setIsMenuOpen(false)} className="block px-4 py-2.5 text-white hover:bg-white/10 font-medium text-sm drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)] transition-all">Pesan</a>
+              <a href="#contact" onClick={() => setIsMenuOpen(false)} className="block px-4 py-2.5 text-white hover:bg-white/10 font-medium text-sm drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)] transition-all">Kontak</a>
             </div>
           </div>
         )}
