@@ -15,7 +15,7 @@ export default function Home() {
   const [phoneError, setPhoneError] = useState('');
   const [isValidating, setIsValidating] = useState(false);
 
-  const whatsappNumber = '6289699412320';
+  const whatsappNumber = '6289539738869';
 
   // Validate Indonesian phone number format
   const validatePhoneNumber = (phone: string): boolean => {
@@ -965,7 +965,7 @@ Mohon konfirmasi ketersediaan dan total harga. Terima kasih!`;
                       </div>
                       <div>
                         <p className="text-xs text-gray-400">Telepon / WhatsApp</p>
-                        <p className="text-sm font-medium drop-shadow-md">0896-9941-2320</p>
+                        <p className="text-sm font-medium drop-shadow-md">0895-3973-88869</p>
                       </div>
                     </div>
                   </div>
@@ -1018,8 +1018,11 @@ Mohon konfirmasi ketersediaan dan total harga. Terima kasih!`;
             </div>
             <span className="text-xl font-bold drop-shadow-lg">Griya Hydrofarm</span>
           </div>
-          <p className="text-white/90 mb-3 text-sm font-medium drop-shadow-md">
+          <p className="text-white/90 mb-2 text-sm font-medium drop-shadow-md">
             Fresh & Quality Hydroponic Vegetables
+          </p>
+          <p className="text-white/80 mb-3 text-xs drop-shadow-md">
+            Owner: <span className="font-semibold text-white/90">Rama Nuari Putra</span>
           </p>
           <div className="h-px w-24 bg-white/30 mx-auto mb-3"></div>
           <p className="text-white/80 text-sm mb-2 drop-shadow-md">
