@@ -15,7 +15,7 @@ export default function Home() {
   const [phoneError, setPhoneError] = useState('');
   const [isValidating, setIsValidating] = useState(false);
 
-  const whatsappNumber = '6289539738869';
+  const whatsappNumber = '62895397388869';
 
   // Validate Indonesian phone number format
   const validatePhoneNumber = (phone: string): boolean => {
